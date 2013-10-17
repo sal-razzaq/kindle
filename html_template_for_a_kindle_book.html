@@ -1,0 +1,311 @@
+<html>
+
+<!-- HTML template for a Kindle book
+------------------------------
+== COPYRIGHT NOTICE ==
+Copyright (c) 2013 Sal Razzaq, All Rights Reserved.
+
+This template is licensed under The MIT License (MIT)
+See: http://opensource.org/licenses/MIT
+
+You are free to use this HTML template
+for any purpose, commercial or non-commercial, as long as
+this copyright and permission notice is included as a
+comment in all copies or substantial portions
+of this template.
+------------------------------
+ -->
+ 
+<!--
+------------------------------
+INSTRUCTIONS:
+1) Search for "**"  (two asterisks without the quotes)
+2) Replace/insert your book content
+
+Please find the accompanying book 
+"Format your Kindle book with HTML" 
+  at: http://amazon.com
+------------------------------
+-->
+
+<head>
+    <title>Title of your book**</title>
+
+    <style type="text/css">
+		/* Indented paragraph, adds vertical space after paragraph */
+		p{
+			text-indent:.25in;
+			margin:0px 0px 10.0pt 0px;
+		}
+		
+		/* Indented paragraph, raised first initial, inherits indentation, vertical space after paragraph */
+		p.first:first-letter{
+			font-size:150%;
+		}
+
+		/* Non-Indented paragraph, adds vertical space after paragraph */
+		div{
+			margin:0px 0px 10.0pt 0px;
+		}
+
+		/* Centered paragraph, adds vertical space after paragraph */
+		div.center{
+			text-align:center;
+			margin:0px 0px 10.0pt 0px;
+		}
+		
+		/* Format a block of monospaced text, adds vertical space after block */
+		div.mono{
+			font-family:courier;
+			font-weight:bold;
+			text-align: left;
+			margin:0px 0px 10.0pt 0px;
+		}
+		
+		/* Format a portion of monospaced text */
+		span.mono{
+			font-family:courier;
+			font-weight:bold;
+		}
+		
+		/* Highlight a portion of text */
+		span.highlight{
+			background-color: yellow;
+			color: black;
+		}
+		
+		/* Show text in a font size bigger than normal text */
+		span.big{
+			font-size:1.5em;
+		}
+		
+		/* Centered CHAPTER heading */
+		h1{
+			text-align:center;
+		}
+		
+		/* NOTE: Use h2 tag for TOPICS within chapters - no special style */
+		
+		/* SUB-TOPICS under topics in chapters - Centered */
+		h3{
+			text-align:center;
+		}
+    </style>
+</head>
+
+
+<body>
+
+<!-- Front Matter - START -
+  Title Page
+  Copyright Notice
+  Dedication
+-->
+
+<!-- Title Page - START -->
+<h1>Title</h1>
+<h1><i>of</i></h1>
+<h1>your book**</h1>
+
+<h3>** Edition</h3>
+<h3>By author's name**</h3>
+<mbp:pagebreak />
+<!-- Title Page - END -->
+
+
+
+<!-- Copyright Page - START -->
+<div>BOOK PRESS**</div>
+<div>Name of your book**</div>
+<div>** Edition</div>
+<div>By author's name**</div>
+<div>Copyright &copy; 2013 by author's name**, All Rights Reserved.</div>
+<div>Additional notices**</div>
+<mbp:pagebreak />
+<!-- Copyright Page - END -->
+
+
+
+<!-- Dedication Page - START -->
+<div class="center"><i>This book is dedicated to **</i></div>
+<mbp:pagebreak />
+<!-- Dedication Page - END -->
+
+<!-- Front Matter - END -->
+
+
+
+<!-- Table of Contents - START -->
+<h3><a name="toc">Contents</a></h3>
+
+<div><a href="#Start">Preface</a></div>
+
+<div><a href="#1">I. The Beginnings**</a></div>
+<ul>
+	<li><a href="#1_arrival">The Arrival**</a></li>
+	<li><a href="#1_settlements">Settlements**</a></li>
+</ul>
+
+<div><a href="#2">II. The Colonies**</a></div>
+<ul>
+	<li><a href="#2_jamestown">Jamestown**</a></li>
+</ul>
+
+<div>
+	<a href="#bibliography">Bibliography</a>
+</div>
+
+<div>
+	<a href="#appendix">Appendix</a>
+</div>
+
+<div>
+	<a href="#notes">Notes</a>
+</div>
+
+<div>
+	<a href="#glossary">Glossary</a>
+</div>
+
+<div>
+	<a href="#author">About the author</a>
+</div>
+<mbp:pagebreak />
+<!-- Table of Contents - END -->
+
+
+
+<!-- Preface - START -->
+<h1><a name="Start">Preface</a></h1>
+
+<p class="first">
+What is this book about**
+</p>
+
+<p>
+More about the book**
+</p>
+
+<mbp:pagebreak />
+<!-- Preface - END -->
+
+
+
+<!-- Chapter I - START -->
+<h1><a name="1">Chapter I</a></h1>
+<h1>The Beginnings**</h1>
+
+<p class="first">
+This is how it all began**
+</p>
+
+<h2><a name="1_arrival">The Arrival**</a></h2>
+<p>
+They <a href="#note_travelmode">traveled</a>
+hundreds of miles**
+</p>
+
+<h2><a name="1_settlements">Settlements**</a></h2>
+<p>
+They settled along the east coast of
+North America**
+</p>
+
+<p>The migration towards the west occurred
+years later**</p>
+
+<mbp:pagebreak />
+<!-- Chapter I - END -->
+
+
+
+<!-- Chapter II - START -->
+<h1><a name="2">Chapter II</a></h1>
+<h1>The Colonies**</h1>
+
+<p class="first">
+Colonies started to appear along the 
+east coast**
+</p>
+
+<h2><a name="2_jamestown">Jamestown**</a></h2>
+<p>
+Jamestown was one of the 
+<a href="#note_othercolonies">first 
+colonies</a> but**
+</p>
+
+<mbp:pagebreak />
+<!-- Chapter II - END -->
+
+
+
+<!-- Back Matter - START
+	Bibliography
+	Appendix
+	Notes
+	Glossary
+-->
+
+<!-- Bibliography - START -->
+<h1><a name="bibliography"/>Bibliography</h1>
+<ul>
+<li>Joseph Past**. History of USA**.</li>
+</ul>
+<mbp:pagebreak />
+<!-- Bibliography - END -->
+
+<!-- Appendix - START -->
+<h1><a name="appendix"/>Appendix</h1>
+<p>
+Appendix text goes here**
+</p>
+<mbp:pagebreak />
+<!-- Appendix - END -->
+
+
+<!-- Notes - START -->
+<h1><a name="notes"/>Notes</h1>
+
+<div>
+<a name="note_travelmode">Modes of travel: The settlers
+traveled by sea**</a>
+</div>
+
+<div>
+<a name="note_othercolonies">Other colonies: There were other 
+colonies as well**</a>
+</div>
+
+<mbp:pagebreak />
+<!-- Notes - END -->
+
+<!-- Glossary - START -->
+<h1><a name="glossary"/>Glossary</h1>
+<dl>
+
+<dt>Jamestown**</dt>
+<dd>One of earliest settlements**</dd>
+
+<dt>Mile**</dt>
+<dd>A unit for measuring distance**</dd>
+
+</dl>
+
+<mbp:pagebreak />
+<!-- Glossary - END -->
+
+
+
+<!-- About the author - START -->
+<h1><a name="author"/>About the author</h1>
+
+<p>Author's name** previous work includes</p>
+<!-- About the author - END -->
+
+
+<!-- Back Matter - END -->
+
+<!-- END OF BOOK -->
+</body>
+</html>
