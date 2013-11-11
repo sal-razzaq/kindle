@@ -1,4 +1,4 @@
-== HTML template for a Kindle book ==
+== HTML TEMPLATE FOR A KINDLE BOOK ==
 
 A ready-made HTML template for a complete Kindle book. Customize and utilize the HTML template to jumpstart the formatting of your very own book.
 
